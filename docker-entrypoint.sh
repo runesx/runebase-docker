@@ -9,6 +9,6 @@ fi
 if [[ "$1" == "runebase-cli" || "$1" == "runebase-tx" ]]; then
 	exec $GOSU "$@"
 else
-  exec $GOSU "runebased -daemon"
+  exec $GOSU "runebased"
 fi
 
